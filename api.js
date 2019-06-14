@@ -1,3 +1,7 @@
+/*
+ * api requiring json token
+ * derived from https://blog.bitsrc.io/understanding-json-web-token-authentication-a1febf0e15
+ */
 const express = require("express");
 const bodyParser = require("body-parser");
 const expressjwt = require("express-jwt");
